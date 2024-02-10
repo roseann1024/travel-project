@@ -11,7 +11,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 10px;
+  grid-gap: 64px;
 }
 section {
   max-width: 1200px;
@@ -69,8 +69,8 @@ header a {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.8),
-      rgba(39, 32, 68, 0.8)
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
     ),
     url("../images/saipan-footer.jpg");
   background-repeat: no-repeat;
@@ -85,7 +85,7 @@ footer h3 {
 }
 
 footer p {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   opacity: 0.9;
   line-height: 24px;
@@ -103,7 +103,7 @@ footer li {
 
 footer a {
   color: white;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 @media (max-width: 960px) {
   header {
