@@ -281,6 +281,6 @@ p.credit {
   }
 
   .grid-4-column-card {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
