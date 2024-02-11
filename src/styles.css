@@ -82,6 +82,7 @@ body {
 .attraction:hover {
   filter: contrast(80%);
   transform: scale(1.5);
+  border-radius: 0;
 }
 
 section {
