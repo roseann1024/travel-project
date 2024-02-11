@@ -76,7 +76,7 @@ body {
 
 .attraction {
   border-radius: 10px;
-  transition: all 150ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 .attraction:hover {
@@ -146,6 +146,14 @@ header a {
 }
 main {
   background: white;
+}
+
+main a {
+  text-decoration: none;
+}
+
+main a:hover {
+  font-style: italic;
 }
 
 main h2 {
