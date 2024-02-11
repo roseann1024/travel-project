@@ -291,4 +291,8 @@ p.credit {
   .grid-4-column-card {
     grid-template-columns: 1fr 1fr;
   }
+
+  .attraction:hover {
+    transform: none;
+  }
 }
